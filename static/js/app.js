@@ -13,10 +13,6 @@ function buildPlot(bio){
         let sample_values = filteredData[0].sample_values.sort(function(a,b){return b-a});
         let otu_ids = filteredData[0].otu_ids;
         let otu_labels = filteredData[0].otu_labels;
-        console.log(sample_values);
-        console.log(otu_ids);
-        console.log(otu_labels);
-
         //build horizontal bar chart
         let trace1 = {
             y: otu_ids.toString(),
