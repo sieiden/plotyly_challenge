@@ -49,6 +49,16 @@ function buildPlot(bio){
             title: "Bacteria Cultures Per Sample"
         };
         Plotly.newPlot('bubble', data2, layout2);
+
+        //build demographic info
+        let filteredData2 = data.metadata.filter(d=>d.id === parseInt(bio));
+        panel = d3.select("#sample-metadata");
+        filteredData2.forEach((i)=>{
+            Object.entries(i).forEach(([key,value])=>{
+                let line = panel.append("p");
+                line.text(`${key}: ${value}`);
+            })
+        })
     });
 };
 
