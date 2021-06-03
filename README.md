@@ -2,7 +2,7 @@
 NW Bootcamp Plotly HW
 
 
-This homework focused on displaying various graphs of bacteria data for various participant ids. The homework included two parts outlined below. To run the files use a source code editor (ex. VS Code) and your local server/default browser or use the gihub pages link (. Use the drop down menu to select a participant ID to see the corresponding graphs on the dashboard.
+This homework focused on displaying various graphs of bacteria data for various participant ids. The homework included two parts outlined below. To run the files use a source code editor (ex. VS Code) and your local server/default browser or use the gihub pages link (https://sieiden.github.io/plotyly_challenge/). Use the drop down menu to select a participant ID to see the corresponding graphs on the dashboard.
 
 # **Biodiversity Level One**
 
