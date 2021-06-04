@@ -15,7 +15,7 @@ The app.js file uses three functions to perform the app's actions
 
 The above photo shows the page when it initially loads. No graphs are shown because a participant ID has not been selected
 
-*buildPlot()
+* buildPlot()
   * reads in the json data for analysis using d3.json()
   * sets variables for arrays of sample values, otu ids, and otu labels to be used in building the plots
   * builds the bar chart of top 10 bacteria found in each sample
